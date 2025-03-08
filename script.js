@@ -1,18 +1,11 @@
 function getVowelCount(sentence) {
-  let numberOfVowels = 0;
-  for (const char of sentence) {
-    if (
-      char === "a" ||
-      char === "e" ||
-      char === "i" ||
-      char === "o" ||
-      char === "u"
-    ) {
-      numberOfVowels += 1;
+  const vowels = "aeiou";
+  let count = 0;
+
+  for (const char of sentence.toLowerCase()) {
+    if (vowels.includes(char)) {
+      count++;
     }
   }
-  console.log(numberOfVowels);
-  return numberOfVowels;
+  return count;
 }
-
-getVowelCount("aa");
