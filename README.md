@@ -1,3 +1,29 @@
 # fs-sentence-analyzer
 
 In this workshop, you'll review how to work with JavaScript loops by building a sentence analyzer app.
+
+Step 1
+In this workshop, you will build a sentence analyzer that will take a sentence and get the count for the number of words, vowels, consonants, and punctuation marks.
+
+To begin, create a getVowelCount function with a parameter called sentence. Your function should return the total number of vowels in a sentence.
+
+Step 2
+Now it is time to test your getVowelCount function.
+
+Create a vowelCount variable and assign it the result of calling the getVowelCount function with the argument of "Apples are tasty fruits"
+
+After that, log the following to the console: "Vowel Count: [vowel count goes here]". Replace  [vowel count goes here] with the actual variable name. You can choose to use template strings or string concatenation with the + operator here.
+
+Step 3
+It's time to count the consonants. Create a getConsonantCount function with a sentence parameter.
+
+Inside the function, use a loop to count the number of consonants in the sentence that will be passed into the function when it is called. A consonant is any letter that is not one of the following characters: "aeiou".
+
+Your getConsonantCount function must return a number.
+
+Step 4
+Now it is time to test your getConsonantCount function.
+
+Create a consonantCount variable and assign it the result of calling the getConsonantCount function with the argument of "Coding is fun"
+
+After that, log the following to the console: "Consonant Count: [Consonant count goes here]". Replace  [Consonant count goes here] with the actual variable name. You can choose to use template strings or string concatenation with the + operator here.
