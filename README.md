@@ -27,3 +27,29 @@ Now it is time to test your getConsonantCount function.
 Create a consonantCount variable and assign it the result of calling the getConsonantCount function with the argument of "Coding is fun"
 
 After that, log the following to the console: "Consonant Count: [Consonant count goes here]". Replace  [Consonant count goes here] with the actual variable name. You can choose to use template strings or string concatenation with the + operator here.
+
+Step 5
+You should count the number of punctuations now.
+
+Create a getPunctuationCount function with a sentence parameter.
+
+Inside the function, create a loop to count the number of punctuation characters in the sentence that will be passed into the function when it is called. For our purposes, a punctuation character is any character that is not a space (" ") or a letter.
+
+Your getPunctuationCount function must return a number.
+
+Step 6
+Now it is time to test your getPunctuationCount function.
+
+Create a punctuationCount variable and assign it the result of calling the getPunctuationCount function with the argument of "WHAT?!?!?!?!?"
+
+After that, log the following to the console: "Punctuation Count: [Punctuation count goes here]". Replace  [Punctuation count goes here] with the actual variable name. You can choose to use template strings or string concatenation with the + operator here.
+
+Step 7
+Finally, count the number of words by creating a getWordCount function with a sentence parameter. The function should return the total number of words in the sentence passed in when it is called.
+
+Step 8
+Test your getWordCount by creating a wordCount variable set to the calling of the getWordCount function with the sentence "I love freeCodeCamp".
+
+After that, log the following to the console: "Word Count: [Word count goes here]". Replace  [Word count goes here] with the actual variable name. You can choose to use template strings or string concatenation with the + operator here.
+
+With that, your sentence analyzer project is done!
